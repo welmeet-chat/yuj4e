@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat With Strangers</title>
+    <link rel="stylesheet" type="text/css" href="chat.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-box">
+            <!-- Messages will be displayed here -->
+            <div class="connecting-text">Connecting...</div>
+        </div>
+        <input type="text" id="message-input" placeholder="Type a message...">
+        <button id="send-btn">Send</button>
+        <button id="back-btn" onclick="window.history.back()">Back</button>
+        <button id="disconnect-btn">Disconnect</button>
+        <button id="reconnect-btn">Reconnect</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script> <!-- Link to JS file -->
+</body>
+</html>
